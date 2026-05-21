@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode Toggle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body id="body">
+    <header>
+      <span class="logo">Vortexy</span>
+      <nav>
+        <a href="#">Work</a>
+        <a href="#">Studio</a>
+        <a href="#">Journal</a>
+      </nav>
+      <div class="toggle-wrap">
+        <span class="toggle-label" id="toggle-label">Light</span>
+        <label class="toggle" aria-label="Toggle dark mode">
+          <input type="checkbox" id="darkToggle" />
+          <div class="toggle-track">
+            <span class="toggle-icon icon-sun">☀︎</span>
+            <span class="toggle-icon icon-moon">☽</span>
+            <div class="toggle-thumb"></div>
+          </div>
+        </label>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1>Design that<br /><em>moves</em> people<br />forward.</h1>
+      <p>
+        We craft interfaces at the intersection of craft and clarity — built to
+        last, designed to resonate.
+      </p>
+      <div class="hero-actions">
+        <a href="#" class="btn-primary">View our work →</a>
+        <a href="#" class="btn-secondary">Get in touch</a>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
